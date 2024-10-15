@@ -41,43 +41,43 @@ You can download [**Repository**](https://github.com/skhassandx/Moonbix) by clon
 ```shell
 ~ >>> git clone https://github.com/skhassandx/Moonbix.git
 ~ >>> cd Moonbix
-~ >>> cd 1
+~ >>> cd 2
 
 #Linux and MocOS
-~/Moonbix/1 >>> chmod +x check_node.sh
-~/Moonbix/1 >>> ./check_node.sh
+~/Moonbix/2 >>> chmod +x check_node.sh
+~/Moonbix/2 >>> ./check_node.sh
 
 OR
 
-~/Moonbix/1 >>> npm install
-~/Moonbix/1 >>> cp .env-example .env
-~/Moonbix/1 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/Moonbix/1 >>> node index.js
+~/Moonbix/2 >>> npm install
+~/Moonbix/2 >>> cp .env-example .env
+~/Moonbix/2 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/Moonbix/2 >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in Moonbix/1 directory to install the dependencies
-2. Double click on START.bat in Moonbix/1 directory to start the bot
+1. Double click on INSTALL.bat in Moonbix/2 directory to install the dependencies
+2. Double click on START.bat in Moonbix/2 directory to start the bot
 
 OR
 
-~/Moonbix/1 >>> npm install
-~/Moonbix/1 >>> cp .env-example .env
-~/Moonbix/1 >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/Moonbix/1 >>> node index.js
+~/Moonbix/2 >>> npm install
+~/Moonbix/2 >>> cp .env-example .env
+~/Moonbix/2 >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/Moonbix/2 >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/Moonbix/1 >>> node index.js --action=1
+~/Moonbix/2 >>> node index.js --action=1
 
 OR
 
-~/Moonbix/1 >>> node index.js --action=2 #For sessions
+~/Moonbix/2 >>> node index.js --action=2 #For sessions
 
 OR
 
-~/Moonbix/1 >>> node index.js --action=3 #For query ids
+~/Moonbix/2 >>> node index.js --action=3 #For query ids
 
 #1 - Create session
 #2 - Run bot with sessions

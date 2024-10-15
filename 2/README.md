@@ -20,7 +20,7 @@
 
 ### [How to use python sessions with this bot](https://github.com/Freddywhest/SessionConvertor)
 
-## [Settings](https://github.com/FreddyWhest/MoonbixBot/blob/main/.env-example)
+## [Settings]
 
 | Settings                       | Description                                                                |
 | ------------------------------ | -------------------------------------------------------------------------- |
@@ -36,47 +36,48 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/MoonbixBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/skhassandx/Moonbix) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/MoonbixBot.git
-~ >>> cd MoonbixBot
+~ >>> git clone https://github.com/skhassandx/Moonbix.git
+~ >>> cd Moonbix
+~ >>> cd 1
 
 #Linux and MocOS
-~/MoonbixBot >>> chmod +x check_node.sh
-~/MoonbixBot >>> ./check_node.sh
+~/Moonbix/1 >>> chmod +x check_node.sh
+~/Moonbix/1 >>> ./check_node.sh
 
 OR
 
-~/MoonbixBot >>> npm install
-~/MoonbixBot >>> cp .env-example .env
-~/MoonbixBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/MoonbixBot >>> node index.js
+~/Moonbix/1 >>> npm install
+~/Moonbix/1 >>> cp .env-example .env
+~/Moonbix/1 >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/Moonbix/1 >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in MoonbixBot directory to install the dependencies
-2. Double click on START.bat in MoonbixBot directory to start the bot
+1. Double click on INSTALL.bat in Moonbix/1 directory to install the dependencies
+2. Double click on START.bat in Moonbix/1 directory to start the bot
 
 OR
 
-~/MoonbixBot >>> npm install
-~/MoonbixBot >>> cp .env-example .env
-~/MoonbixBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/MoonbixBot >>> node index.js
+~/Moonbix/1 >>> npm install
+~/Moonbix/1 >>> cp .env-example .env
+~/Moonbix/1 >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/Moonbix/1 >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/MoonbixBot >>> node index.js --action=1
+~/Moonbix/1 >>> node index.js --action=1
 
 OR
 
-~/MoonbixBot >>> node index.js --action=2 #For sessions
+~/Moonbix/1 >>> node index.js --action=2 #For sessions
 
 OR
 
-~/MoonbixBot >>> node index.js --action=3 #For query ids
+~/Moonbix/1 >>> node index.js --action=3 #For query ids
 
 #1 - Create session
 #2 - Run bot with sessions

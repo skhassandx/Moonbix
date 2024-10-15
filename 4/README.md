@@ -41,7 +41,7 @@ You can download [**Repository**](https://github.com/skhassandx/Moonbix) by clon
 ```shell
 ~ >>> git clone https://github.com/skhassandx/Moonbix.git
 ~ >>> cd Moonbix
-~ >>> cd 1
+~ >>> cd 4
 
 #Linux and MocOS
 ~/Moonbix/4 >>> chmod +x check_node.sh
